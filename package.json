@@ -33,7 +33,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^8.0.0-rc.1",
     "angular-in-memory-web-api": "github:brandonroberts/in-memory-web-api-bazel#50a34d8",
     "core-js": "^2.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "rxjs": "^6.5.1",
     "zone.js": "~0.9.1"
   },
