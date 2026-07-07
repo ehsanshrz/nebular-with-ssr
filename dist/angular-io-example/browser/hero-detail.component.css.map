@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/hero-detail/hero-detail.component.css"],
+  "sourcesContent": ["/* HeroDetailComponent's private CSS styles */\nlabel {\n  display: inline-block;\n  width: 3em;\n  margin: .5em 0;\n  color: #607D8B;\n  font-weight: bold;\n}\ninput {\n  height: 2em;\n  font-size: 1em;\n  padding-left: .4em;\n}\nbutton {\n  margin-top: 20px;\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer;\n  cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\nbutton:disabled {\n  background-color: #eee;\n  color: #ccc;\n  cursor: auto;\n}\n"],
+  "mappings": ";AACA;AACE,WAAS;AACT,SAAO;AACP,UAAQ,KAAK;AACb,SAAO;AACP,eAAa;AACf;AACA;AACE,UAAQ;AACR,aAAW;AACX,gBAAc;AAChB;AACA;AACE,cAAY;AACZ,eAAa;AACb,oBAAkB;AAClB,UAAQ;AACR,WAAS,IAAI;AACb,iBAAe;AACf,UAAQ;AACR,UAAQ;AACV;AACA,MAAM;AACJ,oBAAkB;AACpB;AACA,MAAM;AACJ,oBAAkB;AAClB,SAAO;AACP,UAAQ;AACV;",
+  "names": []
+}
