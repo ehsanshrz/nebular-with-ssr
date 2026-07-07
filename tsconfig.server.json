@@ -1,16 +1,14 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.app.json",
   "compilerOptions": {
-    "outDir": "../out-tsc/app",
-    "baseUrl": "./",
-    "module": "commonjs",
-    "types": []
+    "outDir": "../out-tsc/server",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["node"]
   },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
-  ],
-  "angularCompilerOptions": {
-    "entryModule": "src/app/app.server.module#AppServerModule"
-  }
+  "files": [
+    "src/main.server.ts",
+    "server.ts"
+  ]
 }

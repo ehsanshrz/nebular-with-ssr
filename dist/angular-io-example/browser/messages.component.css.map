@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/messages/messages.component.css"],
+  "sourcesContent": ["/* MessagesComponent's private CSS styles */\nh2 {\n  color: red;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: lighter;\n}\nbody {\n  margin: 2em;\n}\nbody, input[text], button {\n  color: crimson;\n  font-family: Cambria, Georgia;\n}\n\nbutton.clear {\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer;\n  cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\nbutton:disabled {\n  background-color: #eee;\n  color: #aaa;\n  cursor: auto;\n}\nbutton.clear {\n  color: #888;\n  margin-bottom: 12px;\n}\n"],
+  "mappings": ";AACA;AACE,SAAO;AACP;AAAA,IAAa,KAAK;AAAA,IAAE,SAAS;AAAA,IAAE;AAC/B,eAAa;AACf;AACA;AACE,UAAQ;AACV;AACA;AAAM,KAAK,CAAC;AAAO;AACjB,SAAO;AACP,eAAa,OAAO,EAAE;AACxB;AAEA,MAAM,CAAC;AACL,eAAa;AACb,oBAAkB;AAClB,UAAQ;AACR,WAAS,IAAI;AACb,iBAAe;AACf,UAAQ;AACR,UAAQ;AACV;AACA,MAAM;AACJ,oBAAkB;AACpB;AACA,MAAM;AACJ,oBAAkB;AAClB,SAAO;AACP,UAAQ;AACV;AACA,MAAM,CAjBC;AAkBL,SAAO;AACP,iBAAe;AACjB;",
+  "names": []
+}

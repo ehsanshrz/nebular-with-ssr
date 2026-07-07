@@ -10,6 +10,7 @@ import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
 @Component({
+  standalone: false,
   selector: 'hero-search',
   templateUrl: './hero-search.component.html',
   styleUrls: [ './hero-search.component.css' ]
