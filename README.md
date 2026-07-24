@@ -1,32 +1,32 @@
 ```markdown
 <div align="center">
 
-# 🚀 Nebular with SSR (Server-Side Rendering)
+# 🌟 Nebular with SSR
 
-**A modern, production-ready starter template integrating Nebular UI components with Angular Server-Side Rendering.**
+**A production-ready Angular template blending the power of Nebular UI with Server-Side Rendering (SSR).**
 
-[![Angular Version](https://img.shields.io/badge/Angular-SSR-red?logo=angular)](https://angular.io/)
-[![Nebular UI](https://img.shields.io/badge/UI-Nebular-blue?logo=akveo)](https://akveo.github.io/nebular/)
+[![Angular](https://img.shields.io/badge/Angular-SSR-DD0031?logo=angular&logoColor=white)](https://angular.io/)
+[![Nebular](https://img.shields.io/badge/Nebular-UI-598bff?logo=akveo&logoColor=white)](https://akveo.github.io/nebular/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-*Seamlessly combine Nebular's powerful theming engine, stunning visual themes, and 35+ UI components with the performance and SEO benefits of Angular SSR.*
+*Bring Nebular’s gorgeous themes, powerful theming engine, and 35+ UI components to an SEO-friendly, high-performance SSR architecture.*
 
 </div>
 
 ---
 
-## ✨ What's Inside?
+## 📸 Preview & Features
 
-* **⚡ Angular SSR Ready:** Pre-configured setup for Server-Side Rendering to maximize initial load performance, Core Web Vitals, and SEO indexing.
-* **🌙 Nebular Theming Engine:** Full support for Nebular's multi-theme capability (including Cosmic, Corporate, Dark, and Default themes) with runtime theme switching.
-* **🧩 35+ Angular UI Components:** Cleanly integrated Nebular components (Layout, Sidebar, Menu, Card, Tabs, etc.) operating smoothly across both server and client execution contexts.
-* **🛡️ Eva Icons Integration:** Out-of-the-box support for SVG Eva Icons for a crisp, modern aesthetic.
+* **⚡ Angular SSR Setup:** Pre-configured for Server-Side Rendering to ensure optimal core web vitals, blazing-fast initial load times, and perfect search engine indexing.
+* **🎨 Nebular Theming Engine:** Full integration with Nebular’s multi-theme system (Default, Dark, Cosmic, Corporate) and runtime theme switching.
+* **🧩 Enterprise Components:** Access to layout components, sidebars, menus, cards, and adaptive controls that work smoothly across server and client boundaries.
+* **🛡️ Eva Icons Support:** Complete SVG icon integration out of the box.
 
 ---
 
-## 📦 Quick Start
+## 🚀 Quick Start
 
-Follow these steps to get your development environment running locally:
+Get your local development environment up and running in seconds:
 
 ### 1. Clone the repository
 ```bash
@@ -42,57 +42,51 @@ npm install
 
 ```
 
-### 3. Run the development server (with SSR)
+### 3. Run the development server (SSR mode)
 
 ```bash
 npm run dev:ssr
 
 ```
 
-*Open your browser and navigate to `http://localhost:4200`.*
+*Open your browser and navigate to **`http://localhost:4200*`**
 
 ---
 
-## 🏗️ Available Scripts
+## 🛠️ Available Scripts
 
-| Command | Description |
+| Command | Action |
 | --- | --- |
-| `npm start` | Runs the standard client-side development server. |
-| `npm run build` | Builds the application for production (client + server bundles). |
-| `npm run serve:ssr` | Runs the production-built SSR server locally. |
-| `npm run dev:ssr` | Runs the SSR development server with live reload. |
+| `npm start` | Runs standard client-side dev server |
+| `npm run build` | Builds client and server bundles for production |
+| `npm run serve:ssr` | Runs the production-built SSR server locally |
+| `npm run dev:ssr` | Runs the development server with live-reload SSR |
 
 ---
 
-## 🛠️ Project Structure Highlights
+## 📁 Project Structure
 
 ```text
 nebular-with-ssr/
 ├── src/
-│   ├── app/               # Core application modules, components, and routing
-│   ├── assets/            # Static files, images, and localized configuration
-│   ├── index.html         # Application root HTML template
-│   ├── main.ts            # Client bootstrap entry point
-│   ├── main.server.ts     # Server-side bootstrap entry point
-│   └── styles.scss        # Global styles and Nebular theme variable overrides
-├── angular.json           # Angular CLI configuration including SSR builder targets
-└── package.json           # Project dependencies and custom scripts
+│   ├── app/               # Application components, modules, and routing
+│   ├── assets/            # Images, icons, and static configurations
+│   ├── index.html         # Main HTML host template
+│   ├── main.ts            # Client-side application entry point
+│   ├── main.server.ts     # Server-side bootstrapping logic
+│   └── styles.scss        # Global styles and Nebular theme overrides
+├── angular.json           # Angular workspace configuration
+└── package.json           # Project dependencies and script definitions
 
 ```
 
 ---
 
-## 💡 Why Nebular with SSR?
-
-Standard Angular UI component libraries that manipulate the DOM directly during initialization can sometimes introduce hydration mismatches or layout shifts under Server-Side Rendering. This repository provides a cleanly wired boilerplate that mitigates SSR hydration hurdles, letting you leverage Nebular's full styling power without sacrificing server-side performance.
-
----
-
 ## 🤝 Contributing
 
-Contributions, bug reports, and feature requests are always welcome! Feel free to open an issue or submit a pull request.
+Contributions, feedback, and issue submissions are always welcome!
 
-1. Fork the Project (`https://github.com/ehsanshrz/nebular-with-ssr/fork`)
+1. Fork the project (`https://github.com/ehsanshrz/nebular-with-ssr/fork`)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
