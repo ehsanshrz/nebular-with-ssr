@@ -1,17 +1,8 @@
-```markdown
-<div align="center">
-
 # 🌟 Nebular with SSR
 
 **A production-ready Angular template blending the power of Nebular UI with Server-Side Rendering (SSR).**
 
-[![Angular](https://img.shields.io/badge/Angular-SSR-DD0031?logo=angular&logoColor=white)](https://angular.io/)
-[![Nebular](https://img.shields.io/badge/Nebular-UI-598bff?logo=akveo&logoColor=white)](https://akveo.github.io/nebular/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 *Bring Nebular’s gorgeous themes, powerful theming engine, and 35+ UI components to an SEO-friendly, high-performance SSR architecture.*
-
-</div>
 
 ---
 
@@ -29,8 +20,9 @@
 Get your local development environment up and running in seconds:
 
 ### 1. Clone the repository
+
 ```bash
-git clone [https://github.com/ehsanshrz/nebular-with-ssr.git](https://github.com/ehsanshrz/nebular-with-ssr.git)
+git clone https://github.com/ehsanshrz/nebular-with-ssr.git
 cd nebular-with-ssr
 
 ```
@@ -86,7 +78,7 @@ nebular-with-ssr/
 
 Contributions, feedback, and issue submissions are always welcome!
 
-1. Fork the project (`https://github.com/ehsanshrz/nebular-with-ssr/fork`)
+1. Fork the project (`[https://github.com/ehsanshrz/nebular-with-ssr/fork](https://github.com/ehsanshrz/nebular-with-ssr/fork)`)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
@@ -97,3 +89,5 @@ Contributions, feedback, and issue submissions are always welcome!
 ## 📝 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
+
+Built with ❤️ using Angular and Nebular
