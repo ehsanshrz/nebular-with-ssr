@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/hero-search/hero-search.component.css"],
-  "sourcesContent": ["/* HeroSearch private styles */\n.search-result li {\n  border-bottom: 1px solid gray;\n  border-left: 1px solid gray;\n  border-right: 1px solid gray;\n  width: 195px;\n  height: 16px;\n  padding: 5px;\n  background-color: white;\n  cursor: pointer;\n  list-style-type: none;\n}\n\n.search-result li:hover {\n  background-color: #607D8B;\n}\n\n.search-result li a {\n  color: #888;\n  display: block;\n  text-decoration: none;\n}\n\n.search-result li a:hover {\n  color: white;\n}\n.search-result li a:active {\n  color: white;\n}\n#search-box {\n  width: 200px;\n  height: 20px;\n}\n\n\nul.search-result {\n  margin-top: 0;\n  padding-left: 0;\n}\n"],
-  "mappings": ";AACA,CAAC,cAAc;AACb,iBAAe,IAAI,MAAM;AACzB,eAAa,IAAI,MAAM;AACvB,gBAAc,IAAI,MAAM;AACxB,SAAO;AACP,UAAQ;AACR,WAAS;AACT,oBAAkB;AAClB,UAAQ;AACR,mBAAiB;AACnB;AAEA,CAZC,cAYc,EAAE;AACf,oBAAkB;AACpB;AAEA,CAhBC,cAgBc,GAAG;AAChB,SAAO;AACP,WAAS;AACT,mBAAiB;AACnB;AAEA,CAtBC,cAsBc,GAAG,CAAC;AACjB,SAAO;AACT;AACA,CAzBC,cAyBc,GAAG,CAAC;AACjB,SAAO;AACT;AACA,CAAC;AACC,SAAO;AACP,UAAQ;AACV;AAGA,EAAE,CAlCD;AAmCC,cAAY;AACZ,gBAAc;AAChB;",
-  "names": []
-}
